@@ -1,0 +1,66 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+int angka;
+   cout<<" MINUMAN STARBUCKS COFFE\n\n";
+   cout<<" Daftar MENU COFFE \n\n";
+   cout<<" 1.INDONESIA LUWAK COFFE"<<endl;
+   cout<<" 2.AMERICANO ORIGINAL COFFE  "<<endl;
+   cout<<" 3.CHOCOLATE DARK LATE"<<endl;
+   cout<<" 4.VANILA LATE CREAM"<<endl;
+   cout<<" 5.VANILA TOPPING CHOCOLATE"<<endl;
+   cout<<"\n MASUKAN MINUMAN ANDA : ";
+   cin>>angka;
+
+   if(angka==1)
+   cout<<" MINUMAN INDONESIA LUWAK COFFE "<<endl;
+   else
+   if(angka==2)
+   cout<<" MINUMAN AMERICANO ORIGINAL COFFE "<<endl;
+   else
+   if(angka==3)
+   cout<<" MINUMAN CHOCOLATE DARK LATE "<<endl;
+   else
+   if(angka==4)
+   cout<<" MINUMAN VANILA LATE CREAM SPECIAL "<<endl;
+   else
+   if(angka==5)
+   cout<<" MINUMAN VANILA TOPPING CHOCOLATE "<<endl;
+   else
+   cout<<" PILIHAN ANDA SALAH "<<endl;
+   cout<<"\n\nTHANK YOU FOR SELECTION COFFE \n\n";
+
+return 0;
+}
+
+<<<<<<<<<<<<<<<<<<<<=====================================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+#include<iostream>
+using namespace std;
+int main(){
+int DRINKS;
+cout<<"MINUMAN STARBUCKS COFFE\n\n";
+cout<<"Daftar MENU COFFE\n\n";
+cout<<"1.INDONESIA LUWAK COFFE\n";
+cout<<"2.AMERICANO ORIGINAL COFFE\n";
+cout<<"3.CHOCOLATE DARK LATE\n";
+cout<<"4.VANILA LATE CREAM\n";
+cout<<"5.VANILA TOPPING CHOCOLATE\n\n";
+cout<<" MASUKAN MINUMAN YANG ANDA INGIN : ";
+cin>> DRINKS;
+switch(DRINKS)
+{
+    case 1:cout<<"INDONESIA LUWAK COFFE";break;
+    case 2:cout<<"AMERICANO ORIGINAL COFFE";break;
+    case 3:cout<<"CHOCOLATE DARK LATE";break;
+    case 4:cout<<"VANILA LATE CREAM SPECIAL";break;
+    case 5:cout<<"VANILA TOPPING CHOCOLATE";break;
+    default :cout<<"MINUMAN TAK ADO ";break;
+
+}
+cout<<"\n\nTHANK YOU FOR SELECTION COFFE \n\n";
+
+return 0;
+}
+
